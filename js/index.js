@@ -15,10 +15,12 @@
 
 //默认卡片颜色
 var defaultColor = "#000";
-//瓷砖图标存储文件夹(相对index.html的位置)
+//卡片图标存储文件夹(相对index.html的位置)
 var iconPath = './img/icons';
 //默认卡片图标(相对瓷砖图标存储文件夹的文件夹文件名)
 var defaultIcon = '';
+//默认产品地址
+var defaultURl = '#';
 //默认产品名
 var defaultProductName = "Unknown Technology";
 
@@ -88,16 +90,24 @@ $(document).ready(function() {
             $(this).attr("productName", defaultProductName);
 
         $(this).append('<div class="content_box">' + $(this).attr("productName") + '</div>');
+
+        //卡片点击监听
+        if (!$(this).attr("productURl") || $(this).attr("productURl") === "")
+            $(this).attr("productURl", defaultProductName);
+        
+        $(this).on("click",function(){
+            window.location.href=$(this).attr("productURl");
+        });
     });
 
     //页宽改变时调整icon尺寸
     $(window).on("resize", function() {
         windows.cardBackgroundWidthFit();
     });
-    
+
     //帕秋莎GO！
-    $("#go_main").on("click", function(){
-        $(document.body).animate({scrollTop:$("#main").offset().top}, 200 );
+    $("#go_main").on("click", function() {
+        $(document.body).animate({scrollTop: $("#main").offset().top}, 200);
     })
 
     //底部切换语言
