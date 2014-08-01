@@ -18,9 +18,9 @@ var defaultColor = "#000";
 //卡片图标存储文件夹(相对index.html的位置)
 var iconPath = './img/icons';
 //默认卡片图标(相对瓷砖图标存储文件夹的文件夹文件名)
-var defaultIcon = '';
+var defaultIcon = '#';
 //默认产品地址
-var defaultURl = '#';
+var defaultProductURl = '#';
 //默认产品名
 var defaultProductName = "Unknown Technology";
 
@@ -96,7 +96,7 @@ $(document).ready(function() {
 
         //卡片点击监听
         if (!$(this).attr("productURl") || $(this).attr("productURl") === "")
-            $(this).attr("productURl", defaultProductName);
+            $(this).attr("productURl", defaultProductURl);
 
         $(this).on("click", function(evt) {
             var effectX = evt.clientX - ($(this).offset().left - $(document).scrollLeft());
@@ -111,6 +111,7 @@ $(document).ready(function() {
             setTimeout(function() {
                 $(them).children(".light_effect").hide();
                 $(them).children(".light_effect").removeClass("light_effect_action");
+                
                 window.location.href=$(them).attr("productURl");
             }, 500);
         });
