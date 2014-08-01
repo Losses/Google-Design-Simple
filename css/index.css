@@ -1,0 +1,284 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2014, 8:28:14 PM
+    Author     : Losses
+*/
+/* line 20, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000320}}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: all 0.2s ease-in-out;
+}
+/* line 27, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000327}}
+.clear {
+  clear: both;
+}
+/* line 31, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000331}}
+body {
+  font-family: "microsoft yahei", sans-serif;
+}
+/* line 35, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000335}}
+header {
+  color: white;
+  padding-bottom: 20%;
+  background: #3F51B5;
+  position: relative;
+}
+/* line 40, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000340}}
+header h1 {
+  left: 100px;
+  bottom: 40px;
+  font: 60px/120px sans-serif;
+  position: absolute;
+}
+/* line 48, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000348}}
+#go_main {
+  width: 65px;
+  height: 65px;
+  background: #ffffff url(../img/down.svg) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  margin: -32px 0 0 100px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  position: relative;
+}
+/* line 60, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000360}}
+#go_main:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 65, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000365}}
+#body_warp {
+  width: calc( 100% -  100px  );
+  width: -moz-calc( 100% -  100px  );
+  width: -webkit-calc( 100% -  100px  );
+  margin: 0 auto;
+}
+/* line 72, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000372}}
+#mycard_description {
+  color: gray;
+  margin: 60px 25% 60px 0;
+  font: 20px/38px "microsoft yahei", sans-serif;
+}
+/* line 78, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000378}}
+#main {
+  font-size: 0;
+  display: block;
+}
+/* line 82, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000382}}
+#main li {
+  margin: 2px;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+}
+/* line 89, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000389}}
+#main li > img {
+  width: 100%;
+}
+/* line 92, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\0000392}}
+#main li > .content_box {
+  left: 10px;
+  bottom: 10px;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+}
+/* line 101, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003101}}
+#main li:hover {
+  box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+/* line 106, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003106}}
+#main .r1p3 {
+  width: calc(( 100% -  12px  ) / 3 );
+  width: -moz-calc(( 100% -  12px  ) / 3 );
+  width: -webkit-calc(( 100% -  12px  ) / 3 );
+}
+/* line 112, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003112}}
+#main .r2p3 {
+  width: calc(( 100% -  12px  ) / 3 * 2 + 4px );
+  width: -moz-calc(( 100% -  12px  ) / 3 * 2 + 4px );
+  width: -webkit-calc(( 100% -  12px  ) / 3 * 2 + 4px );
+}
+/* line 119, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003119}}
+footer {
+  margin: 234px 0 14px 0;
+  padding: 14px;
+  border-top: 1px solid #bcbcbc;
+  color: gray;
+  font-size: 12px;
+}
+/* line 125, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003125}}
+footer ul {
+  float: left;
+  width: 50%;
+}
+/* line 128, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003128}}
+footer ul li {
+  margin-right: 15px;
+  display: inline-block;
+}
+/* line 133, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003133}}
+footer a:link {
+  color: #3F51B5;
+  text-decoration: none;
+}
+/* line 137, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003137}}
+footer a:visited {
+  color: #3F51B5;
+}
+/* line 140, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003140}}
+footer a:hover {
+  color: #0e218b;
+}
+/* line 143, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003143}}
+footer #lang {
+  position: relative;
+  float: right;
+}
+/* line 146, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003146}}
+footer #lang ul {
+  right: 0;
+  bottom: 0;
+  width: 110px;
+  height: 0;
+  border: 1px solid #bcbcbc;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  float: none;
+  position: absolute;
+  overflow: hidden;
+  z-index: 101;
+}
+/* line 158, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003158}}
+footer #lang ul li {
+  width: calc( 100% - 20px );
+  width: -moz-calc( 100% - 20px );
+  width: -webkit-calc( 100% - 20px );
+  transition: all 0.1s ease-in-out;
+  padding: 5px 10px;
+  display: block;
+}
+/* line 166, F:\Production\Mycard.moe\public_html\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003166}}
+footer #lang ul li:hover {
+  background: #deedf1;
+}
+@media screen and (max-width: 950px) {
+  /* line 174, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003174}}
+  header {
+    padding-bottom: 30%;
+  }
+  /* line 177, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003177}}
+  #go_main {
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 100px;
+  }
+  /* line 182, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003182}}
+  #mycard_description {
+    margin: 60px 20% 60px 0;
+    font: 18px/33px "microsoft yahei", sans-serif;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* line 187, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003187}}
+  header > h1 {
+    font: 40px/80px "microsoft yahei", sans-serif;
+  }
+  /* line 190, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003190}}
+  #go_main {
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 100px;
+  }
+  /* line 195, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003195}}
+  #mycard_description {
+    margin: 60px 18% 60px 0;
+    font: 16px/30px "microsoft yahei", sans-serif;
+  }
+}
+@media screen and (max-width: 660px) {
+  /* line 200, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003200}}
+  #main li > .content_box {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* line 204, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003204}}
+  #mycard_description {
+    margin: 40px 0 40px 0;
+    font: 16px/30px "microsoft yahei", sans-serif;
+  }
+  /* line 208, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003208}}
+  header {
+    padding-bottom: 40%;
+  }
+  /* line 210, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003210}}
+  header > h1 {
+    font: 30px/60px "microsoft yahei", sans-serif;
+  }
+  /* line 214, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003214}}
+  #main li > .content_box {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 218, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003218}}
+  #mycard_description {
+    margin: 30px 0 30px 0;
+    font: 13px/28px "microsoft yahei", sans-serif;
+  }
+  /* line 222, F:\Production\Mycard.moe\public_html\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/Mycard\.moe\/public_html\/css\/index\.less}line{font-family:\00003222}}
+  #main li > .content_box {
+    bottom: 4px;
+    font-size: 12px;
+  }
+}
