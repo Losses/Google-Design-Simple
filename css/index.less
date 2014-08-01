@@ -17,6 +17,9 @@ and open the template in the editor.
 //页面两侧边距
 @page_side_width:100px;
 
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 *{
     margin:0;
     padding:0;
@@ -29,7 +32,7 @@ and open the template in the editor.
 }
 
 body{
-    font-family:"microsoft yahei", sans-serif;
+    font-family:'Droid Sans',"microsoft yahei", sans-serif;
 }
 
 header{
@@ -40,7 +43,7 @@ header{
     h1{
         left:@page_side_width;
         bottom:40px;
-        font:60px/120px sans-serif;
+        font:60px/120px 'Droid Sans',sans-serif;
         position:absolute;
     }
 }
@@ -72,7 +75,7 @@ header{
 #mycard_description{
     color:gray;
     margin:60px 25% 60px 0;
-    font:20px/38px "microsoft yahei", sans-serif;
+    font:20px/38px 'Droid Sans',"microsoft yahei", sans-serif;
 }
 
 #main{
@@ -250,14 +253,14 @@ footer{
     }
     #mycard_description{
         margin:60px 20% 60px 0;
-        font:18px/33px "microsoft yahei", sans-serif;
+        font:18px/33px 'Droid Sans',"microsoft yahei", sans-serif;
     }
     footer{
         margin-top:150px;
     }
 }@media screen and (max-width: 780px){
     header>h1{
-        font:40px/80px "microsoft yahei",sans-serif;
+        font:40px/80px 'Droid Sans',"microsoft yahei",sans-serif;
     }
     #go_main{
         width:40px;
@@ -266,7 +269,7 @@ footer{
     }
     #mycard_description{
         margin:60px 18% 60px 0;
-        font:16px/30px "microsoft yahei", sans-serif;
+        font:16px/30px 'Droid Sans',"microsoft yahei", sans-serif;
     }
     footer{
         margin-top:100px;
@@ -278,12 +281,12 @@ footer{
 }@media screen and (max-width: 550px){
     #mycard_description{
         margin:40px 0 40px 0;
-        font:16px/30px "microsoft yahei", sans-serif;
+        font:16px/30px 'Droid Sans',"microsoft yahei", sans-serif;
     }
     header{
         padding-bottom:40%;
         >h1{
-            font:30px/60px "microsoft yahei",sans-serif;
+            font:30px/60px 'Droid Sans',"microsoft yahei",sans-serif;
         }
     }
     #main li>.content_box{
@@ -292,7 +295,7 @@ footer{
 }@media screen and (max-width: 450px){
     #mycard_description{
         margin:30px 0 30px 0;
-        font:13px/28px "microsoft yahei", sans-serif;
+        font:13px/28px 'Droid Sans',"microsoft yahei", sans-serif;
     }
     #main li>.content_box{
         bottom:4px;
