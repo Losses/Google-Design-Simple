@@ -91,14 +91,16 @@ header h1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
+  overflow: hidden;
 }
-/* line 90, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\0000390}}
+/* line 91, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\0000391}}
 #main li > img {
   width: 100%;
+  pointer-events: none;
 }
-/* line 93, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\0000393}}
+/* line 95, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\0000395}}
 #main li > .content_box {
   left: 10px;
   bottom: 10px;
@@ -106,28 +108,28 @@ header h1 {
   font-size: 28px;
   position: absolute;
 }
-/* line 102, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003102}}
+/* line 104, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003104}}
 #main li:hover {
   box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
 }
-/* line 107, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003107}}
+/* line 109, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003109}}
 #main .r1p3 {
   width: calc(( 100% -  12px  ) / 3 );
   width: -moz-calc(( 100% -  12px  ) / 3 );
   width: -webkit-calc(( 100% -  12px  ) / 3 );
 }
-/* line 113, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003113}}
+/* line 115, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003115}}
 #main .r2p3 {
   width: calc(( 100% -  12px  ) / 3 * 2 + 4px );
   width: -moz-calc(( 100% -  12px  ) / 3 * 2 + 4px );
   width: -webkit-calc(( 100% -  12px  ) / 3 * 2 + 4px );
 }
-/* line 120, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003120}}
+/* line 122, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003122}}
 footer {
   margin: 234px 0 14px 0;
   padding: 14px;
@@ -135,42 +137,42 @@ footer {
   color: gray;
   font-size: 12px;
 }
-/* line 126, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003126}}
+/* line 128, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003128}}
 footer ul {
   float: left;
   width: 50%;
 }
-/* line 129, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003129}}
+/* line 131, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003131}}
 footer ul li {
   margin-right: 15px;
   display: inline-block;
 }
-/* line 134, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003134}}
+/* line 136, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003136}}
 footer a:link {
   color: #3F51B5;
   text-decoration: none;
 }
-/* line 138, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003138}}
+/* line 140, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003140}}
 footer a:visited {
   color: #3F51B5;
 }
-/* line 141, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003141}}
+/* line 143, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003143}}
 footer a:hover {
   color: #0e218b;
 }
-/* line 144, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003144}}
+/* line 146, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003146}}
 footer #lang {
   position: relative;
   float: right;
 }
-/* line 147, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003147}}
+/* line 149, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003149}}
 footer #lang ul {
   right: 0;
   bottom: 0;
@@ -184,8 +186,8 @@ footer #lang ul {
   overflow: hidden;
   z-index: 101;
 }
-/* line 159, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003159}}
+/* line 161, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003161}}
 footer #lang ul li {
   width: calc( 100% - 20px );
   width: -moz-calc( 100% - 20px );
@@ -194,106 +196,106 @@ footer #lang ul li {
   padding: 5px 10px;
   display: block;
 }
-/* line 167, F:\Production\github\google_design_simple\css\index.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003167}}
+/* line 169, F:\Production\github\google_design_simple\css\index.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003169}}
 footer #lang ul li:hover {
   background: #deedf1;
 }
 @media screen and (max-width: 950px) {
-  /* line 175, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003175}}
+  /* line 177, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003177}}
   header {
     padding-bottom: 30%;
   }
-  /* line 178, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003178}}
+  /* line 180, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003180}}
   #go_main {
     width: 50px;
     height: 50px;
     margin: -25px 0 0 100px;
   }
-  /* line 183, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003183}}
+  /* line 185, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003185}}
   #mycard_description {
     margin: 60px 20% 60px 0;
     font: 18px/33px "microsoft yahei", sans-serif;
   }
-  /* line 187, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003187}}
+  /* line 189, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003189}}
   footer {
     margin-top: 150px;
   }
 }
 @media screen and (max-width: 780px) {
-  /* line 191, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003191}}
+  /* line 193, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003193}}
   header > h1 {
     font: 40px/80px "microsoft yahei", sans-serif;
   }
-  /* line 194, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003194}}
+  /* line 196, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003196}}
   #go_main {
     width: 40px;
     height: 40px;
     margin: -20px 0 0 100px;
   }
-  /* line 199, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003199}}
+  /* line 201, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003201}}
   #mycard_description {
     margin: 60px 18% 60px 0;
     font: 16px/30px "microsoft yahei", sans-serif;
   }
-  /* line 203, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003203}}
+  /* line 205, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003205}}
   footer {
     margin-top: 100px;
   }
 }
 @media screen and (max-width: 660px) {
-  /* line 207, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003207}}
+  /* line 209, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003209}}
   #main li > .content_box {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 211, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003211}}
+  /* line 213, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003213}}
   #mycard_description {
     margin: 40px 0 40px 0;
     font: 16px/30px "microsoft yahei", sans-serif;
   }
-  /* line 215, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003215}}
+  /* line 217, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003217}}
   header {
     padding-bottom: 40%;
   }
-  /* line 217, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003217}}
+  /* line 219, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003219}}
   header > h1 {
     font: 30px/60px "microsoft yahei", sans-serif;
   }
-  /* line 221, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003221}}
+  /* line 223, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003223}}
   #main li > .content_box {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 225, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003225}}
+  /* line 227, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003227}}
   #mycard_description {
     margin: 30px 0 30px 0;
     font: 13px/28px "microsoft yahei", sans-serif;
   }
-  /* line 229, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003229}}
+  /* line 231, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003231}}
   #main li > .content_box {
     bottom: 4px;
     font-size: 12px;
   }
-  /* line 233, F:\Production\github\google_design_simple\css\index.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003233}}
+  /* line 235, F:\Production\github\google_design_simple\css\index.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/Production\/github\/google_design_simple\/css\/index\.less}line{font-family:\00003235}}
   footer {
     margin-top: 50px;
   }
