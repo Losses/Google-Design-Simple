@@ -91,12 +91,28 @@ $(document).ready(function() {
 
         $(this).append('<div class="content_box">' + $(this).attr("productName") + '</div>');
 
+        //注入鼠标特效元素
+        $(this).append('<div class="light_effect"></div>');
+
         //卡片点击监听
         if (!$(this).attr("productURl") || $(this).attr("productURl") === "")
             $(this).attr("productURl", defaultProductName);
-        
-        $(this).on("click",function(){
-            window.location.href=$(this).attr("productURl");
+
+        $(this).on("click", function(evt) {
+            var effectX = evt.clientX - ($(this).offset().left - $(document).scrollLeft());
+            var effectY = evt.clientY - ($(this).offset().top - $(document).scrollTop());
+            $(this).children(".light_effect").css({
+                "display": "block",
+                "left": effectX,
+                "top": effectY
+            });
+            $(this).children(".light_effect").addClass("light_effect_action");
+            var them = this;
+            setTimeout(function() {
+                $(them).children(".light_effect").hide();
+                $(them).children(".light_effect").removeClass("light_effect_action");
+                window.location.href=$(them).attr("productURl");
+            }, 500);
         });
     });
 
@@ -126,7 +142,7 @@ $(document).ready(function() {
     });
 
     console.log('///////////////////////////////////////////////////////////////////////');
-    console.log('                           FUCK YOU GOOGLE');
+    console.log('                           FUCK YOU GOOGLE                             ');
     console.log('                                    By Losses Don                      ');
     console.log('///////////////////////////////////////////////////////////////////////');
     console.log('Mail:Minecard@qzworld.net                                              ');
